@@ -1,0 +1,57 @@
+* {box-sizing: border-box;}
+html, body {
+  font-family: -apple-system, system-ui;
+  height: 100%;
+}
+body{
+  color: rgb(57, 57, 71);
+  background-color: white;
+}
+.container-fluid{
+  min-height: 75%;
+  max-width: 1400px;
+  padding: 3rem 2rem;
+}
+/**Customized buttom**/
+.btn-primary {
+  background-color: rgb(57, 57, 71);
+  color: rgb(255, 254, 244);
+  border: rgb(57, 57, 71);
+}
+.btn-primary:hover, .btn-primary:focus{
+  background-color: rgb(70, 70, 85);
+  color: rgb(255, 254, 244);
+}
+.btn-primary:active{
+  background: rgb(70, 70, 85);
+  color: rgb(255, 254, 244);
+}
+/**Jumbotron**/
+.jumbotron{
+  background-color: rgb(57, 57, 71);
+  color: rgb(255, 254, 244);
+}
+.jumbotron{
+  min-height: 25%;
+  margin-bottom: 0;
+}
+.jumbotron div{
+  word-wrap:break-word;
+}
+
+/**cards**/
+.my-card {
+  padding: 1rem;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
+}
+.my-card, .my-card:hover, .my-card:focus, .my-card:active {
+      text-decoration: none;
+      color: inherit;
+ }
+a.my-card:hover{
+  opacity: 0.8
+}
