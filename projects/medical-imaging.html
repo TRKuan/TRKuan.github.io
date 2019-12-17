@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!--Google Fonts-->
+    <!--link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300i|Quicksand" rel="stylesheet"-->
+    <!--Font Awesome-->
+    <!--link rel="stylesheet" href="https://opensource.keycdn.com/fontawesome/4.7.0/font-awesome.min.css" integrity="sha384-dNpIIXE8U05kAbPhy3G1cz+yZmTzA6CY8Vg/u2L9xRnHjJiAK76m2BIEaSEV+/aU" crossorigin="anonymous">-->
+    <!--Bootstrap-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="/styles/main.css">
+    <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
+
+    <meta name="theme-color" content="#393947">
+    <title>Tian-Ruei Kuan</title>
+</head>
+
+<body>
+    <!--jumbotron-->
+    <div class="light-bg jumbotron jumbotron-fluid d-flex align-items-center">
+        <div class="container text-center">
+            <div>
+                <h2>Medical Imaging</h2>
+            </div>
+        </div>
+    </div>
+    <!--main content-->
+    <div class="container-fluid">
+      <div class="dark-bg row p-2 pt-4 p-md-5 m-0">
+        <div class="col-12 col-md-6 d-flex align-items-center">
+          <div>
+            <h3 class="mb-4">Skin Cancer</h3>
+            <p>
+              Participate in the <a href="https://challenge2018.isic-archive.com/">ISIC 2018: Skin Lesion Analysis Towards Melanoma Detection Challenge</a> at MICCAI,
+              we use deep learning methods to solve semantic segmentation and classification problems of skin cancer, Melanoma in particular. Hair is removed in the preprocessing
+              process to improve the prediction. For the semantic segmentation of different attributes, due to the highly unbalanced dataset, the weighted loss function is used to
+              encourage positive prediction.
+            </p>
+            <a class="btn btn-secondary m-2" href="/files/ISIC2018 Challenge Skin Lesion Segmentation, Attribute Detection and Classification via Deep Learning.pdf">PDF</a>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 p-2">
+          <img class="img-fluid" src="/images/isic.jpg" alt="image">
+        </div>
+      </div>
+
+      <div class="row p-2 pt-4 p-md-5 m-0 flex-md-row-reverse">
+        <div class="col-12 col-md-6 d-flex align-items-center">
+          <div>
+            <h3 class="mb-4">Diabetic Retinopathy</h3>
+            <p>
+              Participate in the <a href="https://idrid.grand-challenge.org/">IDRiD Diabetic Retinopathy Segmentation and Grading Challenge</a> at ISBI.
+              We use deep learning to solve the semantic segmentation problem of 4 different eye lesions. Due to the large size of the input images,
+              they are cropped into smaller sizes before fed into the Global convolutional network model. Weighted loss is used to encourage positive
+              outcomes of the unbalanced dataset.
+            </p>
+            <a class="btn btn-primary m-2" href="https://github.com/TRKuan/IDRiD">Code</a>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 p-2">
+          <img class="img-fluid" src="/images/idrid.png" alt="image" >
+        </div>
+      </div>
+
+      <div class="dark-bg row p-2 pt-4 p-md-5 m-0">
+        <div class="col-12 col-md-6 d-flex align-items-center">
+          <div>
+            <h3 class="mb-4">Chest X-Ray</h3>
+            <p>
+              Detect common thoracic diseases from chest X-ray images. We use the <a href="https://arxiv.org/pdf/1705.02315.pdf">ChestX-ray8</a> dataset to train our
+              deep learning model and is able to perform slightly better than the paper.
+            </p>
+            <a class="btn btn-secondary m-2" href="https://github.com/TRKuan/cxr8">Code</a>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 p-2">
+          <img class="img-fluid" src="/images/cxr.png" alt="image" >
+        </div>
+      </div>
+
+    </div>
+
+
+    <!--scripts-->
+    <!--Bootstrap-->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+
+</html>

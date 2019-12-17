@@ -8,9 +8,17 @@ body{
   background-color: white;
 }
 .container-fluid{
-  min-height: 75%;
+  min-height: 65%;
   max-width: 1400px;
-  padding: 3rem 2rem;
+  padding: 0;
+}
+.dark-bg{
+  background-color: rgb(57, 57, 71);
+  color: rgb(255, 254, 244);
+}
+.light-bg{
+  color: rgb(57, 57, 71);
+  background-color: white;
 }
 /**Customized buttom**/
 .btn-primary {
@@ -26,13 +34,22 @@ body{
   background: rgb(70, 70, 85);
   color: rgb(255, 254, 244);
 }
+.btn-secondary {
+  background-color: rgb(255, 254, 244);
+  color: rgb(57, 57, 71);
+  border: rgb(255, 254, 244);
+}
+.btn-secondary:hover, .btn-secondary:focus{
+  background-color: rgb(255, 255, 247);
+  color: rgb(57, 57, 71);
+}
+.btn-secondary:active{
+  background: rgb(255, 255, 247);
+  color: rgb(57, 57, 71);
+}
 /**Jumbotron**/
 .jumbotron{
-  background-color: rgb(57, 57, 71);
-  color: rgb(255, 254, 244);
-}
-.jumbotron{
-  min-height: 25%;
+  min-height: 35%;
   margin-bottom: 0;
 }
 .jumbotron div{
