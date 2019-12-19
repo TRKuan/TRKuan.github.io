@@ -28,60 +28,66 @@
         </div>
     </div>
     <!--main content-->
-    <div class="container-fluid">
-      <div class="dark-bg row p-2 pt-4 p-md-5 m-0">
+    <div class="dark-bg d-flex justify-content-center">
+      <div class="container-fluid row p-2 pt-4 p-md-5 m-0">
         <div class="col-12 col-md-6 d-flex align-items-center">
           <div>
             <h3 class="mb-4">Skin Cancer</h3>
             <p>
-              Participate in the <a href="https://challenge2018.isic-archive.com/">ISIC 2018: Skin Lesion Analysis Towards Melanoma Detection Challenge</a> at MICCAI,
-              we use deep learning methods to solve semantic segmentation and classification problems of skin cancer, Melanoma in particular. Hair is removed in the preprocessing
-              process to improve the prediction. For the semantic segmentation of different attributes, due to the highly unbalanced dataset, the weighted loss function is used to
-              encourage positive prediction.
+              To develop automated diagnosis of melanoma, the deadliest form of skin cancer, from dermoscopic images, International Skin Imaging Collaboration (ISIC) hosted the
+              <a href="https://challenge2018.isic-archive.com/">ISIC 2018: Skin Lesion Analysis Towards Melanoma Detection Challenge</a> at MICCAI. Participated in the challenge,
+              we proposed deep learning methods to solve semantic segmentation and classification problems of melanoma.
             </p>
             <a class="btn btn-secondary m-2" href="/files/ISIC2018 Challenge Skin Lesion Segmentation, Attribute Detection and Classification via Deep Learning.pdf">PDF</a>
           </div>
         </div>
-        <div class="col-12 col-md-6 p-2">
-          <img class="img-fluid" src="/images/isic.jpg" alt="image">
+        <div class="col-12 col-md-6 p-2 d-flex align-items-center justify-content-center">
+          <img class="img-fluid" src="/images/isic.jpg" alt="image" width="90%">
         </div>
       </div>
+    </div>
 
-      <div class="row p-2 pt-4 p-md-5 m-0 flex-md-row-reverse">
+    <div class="light-bg d-flex justify-content-center">
+      <div class="container-fluid row p-2 pt-4 p-md-5 m-0 flex-md-row-reverse">
         <div class="col-12 col-md-6 d-flex align-items-center">
           <div>
             <h3 class="mb-4">Diabetic Retinopathy</h3>
             <p>
-              Participate in the <a href="https://idrid.grand-challenge.org/">IDRiD Diabetic Retinopathy Segmentation and Grading Challenge</a> at ISBI.
-              We use deep learning to solve the semantic segmentation problem of 4 different eye lesions. Due to the large size of the input images,
-              they are cropped into smaller sizes before fed into the Global convolutional network model. Weighted loss is used to encourage positive
-              outcomes of the unbalanced dataset.
+              To develop algorithms for automated detection and grading of diabetic retinopathy, the Indian Diabetic Retinopathy Image Dataset (IDRiD) organized the
+              <a href="https://idrid.grand-challenge.org/">IDRiD Diabetic Retinopathy Segmentation and Grading Challenge</a> at ISBI.
+              Participated in the challenge, we proposed a deep learning method to detect the retinal lesions associated with diabetic retinopathy.
             </p>
             <a class="btn btn-primary m-2" href="https://github.com/TRKuan/IDRiD">Code</a>
           </div>
         </div>
-        <div class="col-12 col-md-6 p-2">
-          <img class="img-fluid" src="/images/idrid.png" alt="image" >
+        <div class="col-12 col-md-6 p-2 d-flex align-items-center justify-content-center">
+          <img class="img-fluid" src="/images/idrid.png" alt="image"  width="90%">
         </div>
       </div>
+    </div>
 
-      <div class="dark-bg row p-2 pt-4 p-md-5 m-0">
+    <div class="dark-bg d-flex justify-content-center">
+      <div class="container-fluid row p-2 pt-4 p-md-5 m-0">
         <div class="col-12 col-md-6 d-flex align-items-center">
           <div>
             <h3 class="mb-4">Chest X-Ray</h3>
             <p>
               Detect common thoracic diseases from chest X-ray images. We use the <a href="https://arxiv.org/pdf/1705.02315.pdf">ChestX-ray8</a> dataset to train our
-              deep learning model and is able to perform slightly better than the paper.
+              deep learning model.
             </p>
             <a class="btn btn-secondary m-2" href="https://github.com/TRKuan/cxr8">Code</a>
           </div>
         </div>
-        <div class="col-12 col-md-6 p-2">
-          <img class="img-fluid" src="/images/cxr.png" alt="image" >
+        <div class="col-12 col-md-6 p-2 d-flex align-items-center justify-content-center">
+          <img class="img-fluid" src="/images/cxr.png" alt="image"  width="90%">
         </div>
       </div>
-
     </div>
+
+    <div class="light-bg d-flex justify-content-center pt-5 pb-5">
+      <a class="btn btn-primary m-2" href="/">Back to Home</a>
+    </div>
+
 
 
     <!--scripts-->
