@@ -55,6 +55,9 @@ body{
 .jumbotron div{
   word-wrap:break-word;
 }
+.jumbotron a{
+  color:peachpuff;
+}
 
 /**cards**/
 .my-card {
